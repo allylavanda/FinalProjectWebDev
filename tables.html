@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Final Project - Tables</title>
+	<link rel="stylesheet" href="styles/main_page.css">
+	<meta charset="UTF-8">
+	<meta name="description" content="Final Lab">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="allylavanda"
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<img class="image_box" src="img/title_img.png">
+</head>
+<body>
+	<div class="navi">
+		<a href="LabFinal.html">Home</a>
+		<a href="superlatives.html">Superlatives</a>
+		<a class ="active" href="tables.html">Tables</a>
+	</div>
+	<h4><a href="#bottom"> If you would like to sink into the abyss of this webpage, click here at your peril!</a></h4>
+	<hr>
+	<h3>Here is the logo of my favorite soccer team, Borussia Dortmund.</h3>
+	<img src="img/Borussia_Dortmund_lowres.png" alt="Borussia Dortmund's Logo" title="Borussia Dortmund" height="132 "width="100">
+	<hr>
+	<h3>This is the cover to my favorite book, <em>Ender's Game</em>.</h3>
+	<figure>
+		<img src="img/endersgame-cover.jpg" alt="Ender's Game Book Cover">
+		<figcaption>Ender's Game Book Cover</figcaption>
+	</figure>
+
+	<hr>
+	<h3>Here is a picture of a rabbit going bye bye.</h3>
+	<img src="img/rabbit-funny.gif" alt="Rabbit Jumping in a garbage receptacle" title="Bunny go bye bye">
+	<hr>
+
+	<h1>For my first table, I will be writing out my department's work schedule from last week out.</h1>
+
+	<table class="text_box" style="margin-left: auto; margin-right: auto;">
+		<thead>
+			<th>Employee</th>
+			<th>Sunday</th>
+			<th>Monday</th>
+			<th>Tuesday</th>
+			<th>Wednesday</th>
+			<th>Thursday</th>
+			<th>Friday</th>
+			<th>Saturday</th>
+		</thead>
+		<tbody>
+		<tr>
+			<th>Jeremy</th>
+			<th>9:00-6:30</th>
+			<th>1:00-9:30</th>
+			<th>OFF</th>
+			<th>7:00-4:00</th>
+			<th>OFF</th>
+			<th>1:00-11:00</th>
+			<th>12:00-8:30</th>
+		</tr>
+
+		<tr>
+			<th>Sean</th>
+			<td colspan = "7"> PAID VACATION</td>
+		</tr>
+
+		<tr>
+			<th>Derek</th>
+			<th>9:00-6:30</th>
+			<th>10:00-6:00</th>
+			<th>OFF</th>
+			<th>OFF</th>
+			<th>OFF</th>
+			<th>8:00-4:00</th>
+			<th>OFF</th>
+		</tr>
+		</tbody>
+		<tfoot>
+			<th>Ty</th>
+			<th>OFF</th>
+			<th>OFF</th>
+			<th>10:00-6:00</th>
+			<th>10:00-6:00</th>
+			<th>10:00-6:00</th>
+			<th>OFF</th>
+			<th>12:00-8:30</th>
+		</tfoot>
+	</table>
+
+	<hr>
+    <h1>For this table, I will invert the schedule.</h1>
+	<table class="text_box" style="margin-left: auto; margin-right: auto;">
+		<thead>
+			<th>Days</th>
+			<th>Jeremy</th>
+			<th>Sean</th>
+			<th>Derek</th>
+			<th>Ty</th>
+		</thead>
+
+		<tr>
+			<th>Sunday</th>
+			<th>9:00-6:30</th>
+			<td rowspan = "8">PAID VACATION</td>
+			<th>9:00-6:30</th>
+			<th>OFF</th>
+		</tr>
+
+		<tr>
+			<th>Monday</th>
+			<th>1:00-9:30</th>
+			<th>10:00-6:00</th>
+			<th>OFF</th>
+		</tr>
+
+		<tr>
+			<th>Tuesday</th>
+			<th>OFF</th>
+			<th>OFF</th>
+			<th>10:00-6:00</th>
+		</tr>
+
+		<tr>
+			<th>Wednesday</th>
+			<th>7:00-4:00</th>
+			<th>OFF</th>
+			<th>10:00-6:00</th>
+		</tr>
+
+		<tr>
+			<th>Thursday</th>
+			<th>OFF</th>
+			<th>OFF</th>
+			<th>10:00-6:00</th>
+		</tr>
+
+		<tr>
+			<th>Friday</th>
+			<th>1:00-11:00</th>
+			<th>8:00-4:00</th>
+			<th>OFF</th>
+		</tr>
+
+		<tr>
+			<th>Saturday</th>
+			<th>12:00-8:30</th>
+			<th>OFF</th>
+			<th>12:00-8:30</th>
+		</tr>
+	</table>
+
+	<hr>
+	<h1> For my final table, I will be rewriting out my favorite video games *revised</h1>
+
+	<table class="text_box" style="margin-left: auto; margin-right: auto;">
+		<tr>
+			<th>Ranking</th>
+			<th>Video Game</th>
+		</tr>
+
+		<tr>
+			<th>1</th>
+			<th><a href="https://www.cyberpunk.net/us/en/" target="_blank">Cyberpunk 2077</a></th>
+		</tr>
+
+		<tr>
+			<th>2</th>
+			<th><a href="https://www.finalfantasyxiv.com/" target="_blank">Final Fantasy XIV</a></th>
+		</tr>
+
+		<tr>
+			<th>3</th>
+			<th><a href="https://www.devilmaycry5.com/" target="_blank">Devil May Cry 5</a></th>
+		</tr>
+
+		<tr>
+			<th>4</th>
+			<th><a href="https://www.bungie.net/" target="_blank">Destiny 2</a></th>
+		</tr>
+
+		<tr>
+			<th>5</th>
+			<th><a href="https://worldofwarcraft.com/" target="_blank">World of Warcraft</a></th>
+		</tr>
+	</table>
+
+	<hr>
+</body>
+
+
+	<h4><a href="#top"> If you would like to rise to the peak of this webpage, click here!</a></h4>
+</html>
